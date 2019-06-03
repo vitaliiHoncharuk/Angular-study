@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import {FormsModule} from "@angular/forms";
+import { SecondWayComponent } from './second-way/second-way.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SecondWayComponent
   ],
   imports: [
     BrowserModule,
