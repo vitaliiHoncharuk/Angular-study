@@ -1,0 +1,21 @@
+<form class="form-style-9" #myForm="ngForm" (ngSubmit)="sendForm(myForm)">
+  <ul>
+    <li>
+      <input type="text" name="name" class="field-style field-split align-left" placeholder="Name" ngModel/>
+      <input type="email" name="email" class="field-style field-split align-right" placeholder="Email" ngModel/>
+    </li>
+    <li>
+      <input type="text" name="phone" class="field-style field-split align-left" placeholder="Phone" ngModel/>
+      <input type="url" name="web-site" class="field-style field-split align-right" placeholder="Website" ngModel/>
+    </li>
+    <li>
+      <input type="text" name="subj" class="field-style field-full align-none" placeholder="Subject" ngModel/>
+    </li>
+    <li>
+      <textarea name="message" class="field-style" placeholder="Message" ngModel></textarea>
+    </li>
+    <li>
+      <input type="submit" value="Send Message"/>
+    </li>
+  </ul>
+</form>
